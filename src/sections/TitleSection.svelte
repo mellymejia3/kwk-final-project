@@ -6,7 +6,7 @@
   const headline = "Who Gets to Be Creative?";
   const image = "img.jpg";
   const subtitle =
-    "A scrollytelling report on why opportunity doesn't always follow talent";
+    "A scrollytelling report on why opportunity doesn't always follow talent.";
 </script>
 
 <TitleCard {heading} {title} {image} {headline} {subtitle} />
