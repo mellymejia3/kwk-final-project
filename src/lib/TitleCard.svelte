@@ -22,7 +22,7 @@
     text-align: center;
   }
 
-  .title-card {
+  /*.title-card {
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -37,7 +37,7 @@
     border: 6px solid #2e2e2e;
     border-radius: 2rem;
     box-shadow: 16px 16px #808583;
-  }
+  } not being used for now*/
 
   h1 {
     font-family: "Playfair Display";
