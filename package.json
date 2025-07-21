@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://mellymejia3.github.io/kwk-final-project/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -19,5 +18,8 @@
   },
   "dependencies": {
     "highcharts": "^12.3.0"
-  }
+  },
+
+  "homepage": "https://mellymejia3.github.io/kwk-final-project/"
 }
+
