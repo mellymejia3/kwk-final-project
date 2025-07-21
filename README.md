@@ -4,9 +4,12 @@ All data used in the project is credited to the Black Wealth Data Center.
 
 Data Cited:
 The Black Wealth Data Center. (2025). Explore Data - Education. "Rate of Bachelor's Degree or Higher Attainment, by Race/Ethnicity (County-wide, 2023)". Blackwealthdata.org.https://blackwealthdata.org/explore/education 
+
 The Black Wealth Data Center. (2025). Explore Data - Education. "Grade 12 Enrollment Rates, by Race/Ethnicity (Nationwide, 2023)". Blackwealthdata.org.https://blackwealthdata.org/explore/education
-The Black Wealth Data Center. (2025). Explore Data - Assets & Debt. "Percent Poverty, by Race/Ethnicity (County-wide, 2023)". Blackwealthdata.org. 
-The Black Wealth Data Center. (2025). Explore Data - Population. "Population Counts by Race/Ethnicity (County-wide, 2023)". Blackwealthdata.org. 
+
+The Black Wealth Data Center. (2025). Explore Data - Assets & Debt. "Percent Poverty, by Race/Ethnicity (County-wide, 2023)". Blackwealthdata.org.https://blackwealthdata.org/explore/education
+
+The Black Wealth Data Center. (2025). Explore Data - Population. "Population Counts by Race/Ethnicity (County-wide, 2023)". Blackwealthdata.org. https://blackwealthdata.org/explore/education 
 
 
 Code Referenced:
