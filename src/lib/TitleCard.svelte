@@ -8,7 +8,7 @@
   <hr class="divider" />
 
   <div class="headline-image">
-    <img src= {picture} alt="Bronx Innovation Feature">
+    <img src={picture} alt="Bronx Innovation Feature" />
   </div>
 
   <div>
@@ -18,7 +18,6 @@
 </div>
 
 <style>
-  
   .headline-image {
     width: 100%;
     max-height: 400px;
@@ -66,13 +65,6 @@
     font-weight: 700;
     color: Black;
     margin: 0.5rem 0;
-  }
-
-  h3 {
-    font-family: "EB Garamond";
-    font-size: 24pt;
-    color: #737373;
-    margin-top: 0.25rem;
   }
 
   p {
