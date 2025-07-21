@@ -13,7 +13,7 @@
 
   <div>
     <h2>{headline}</h2>
-    <h3>{subtitle}</h3>
+    <p>{subtitle}</p>
   </div>
 </div>
 
@@ -24,7 +24,7 @@
     max-height: 400px;
     overflow: hidden;
     margin-bottom: 2rem;
-    border: 1px solid #ccc;
+    border: 1px solid #a1261d;
     justify-content: center;
     align-items: center;
   }

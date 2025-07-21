@@ -5,7 +5,7 @@
 
 <div class="wrapper">
   <div class="right">
-    <img src="/hat.png" alt="Hat Pic" />
+    <img src="hat.png" alt="Hat Pic" style="width:300px; height: auto; display: block; margin: 0 auto;"/>
   </div>
   <div class="left">
     <h3>

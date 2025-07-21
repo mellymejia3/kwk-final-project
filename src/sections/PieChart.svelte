@@ -44,20 +44,24 @@
           {
             name: "Black",
             y: 484151,
+            sliced: true,
+            selected: true,
+            color: "#a1261d",
           },
           {
             name: "Hispanic",
-            sliced: true,
-            selected: true,
             y: 779093,
+            color: "#d4d3c1",
           },
           {
             name: "Asian",
             y: 57790,
+            color: "#c1d4d3",
           },
           {
             name: "White",
             y: 223793,
+            color: "#737373",
           },
         ],
       },
@@ -80,7 +84,7 @@
 
     {#snippet scrolly()}
       <ArticleText>
-        <h3>The Bronx: Full of Talent, Short on Wealth</h3>
+        <h3 style= "color: black">The Bronx: Full of Talent, Short on Wealth</h3>
       </ArticleText>
 
       <ArticleText>

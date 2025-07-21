@@ -15,7 +15,7 @@
   <Scroller layout="left">
     {#snippet sticky()}
       <div class="chart">
-        <h1>1.6%</h1>
+        <h1 style= "color: #a1261d">1.6%</h1>
       </div>
     {/snippet}
 

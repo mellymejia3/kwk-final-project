@@ -22,7 +22,7 @@
 
   <div class="left">
     <h2>What could change look like?</h2>
-    <img src="/apple.png" alt="apple" />
+    <img src="apple.png" alt="apple" style="width:150px; height: auto; display: block; margin: 0 auto;"/>
   </div>
 </div>
 

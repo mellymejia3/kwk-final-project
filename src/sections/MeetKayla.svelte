@@ -12,7 +12,7 @@
   <Scroller layout="right">
     {#snippet sticky()}
       <div class="image-column">
-        <img src="/kayla.png" alt="Portrait of Kayla" />
+        <img src="kayla.png" alt="Portrait of Kayla" />
       </div>
       <blockquote>
         "I want to be an engineer, but my school cut the robotics club last
