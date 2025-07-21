@@ -1,3 +1,6 @@
+<script>
+</script>
+
 <header class="section-header">
   <p>The Bronx Innovation</p>
   <div class="divider"></div>
@@ -5,20 +8,21 @@
 
 <div class="wrapper">
   <div class="right">
-    <img src="/hat.png" alt="Hat Pic" />
-  </div>
-  <div class="left">
-    <h3>
-      The Bronx is full of potential Leonardos and Einsteins. They're just not
-      given the resources to thrive.
+    <h3 style="color: #a1261d; font-size: 20px;">
+      Here are a list of NYC and Bronx-based programs that students like Kayla
+      has access to:
     </h3>
-    <p>
-      How does poverty and educational inequality in The Bronx limit Black and
-      Latino youth from pursuing creative or STEAM degrees? The Bronx is a place
-      bursting with creative and scientific potential, but systemically
-      underfunded. What if you had the talent to be an innovator but not the
-      resources?
-    </p>
+    <ul>
+      <li>Questbridge</li>
+      <li>Kode with Klossy</li>
+      <li>CUNY STEM City</li>
+      <li>DreamYard</li>
+    </ul>
+  </div>
+
+  <div class="left">
+    <h2>What could change look like?</h2>
+    <img src="/apple.png" alt="apple" />
   </div>
 </div>
 
@@ -41,6 +45,7 @@
     display: flex;
     flex-direction: column;
     flex: 1 1;
+    padding: 5rem;
   }
 
   .right {
@@ -48,6 +53,7 @@
     display: flex;
     flex-direction: column;
     flex: 1 1;
+    padding: 5rem;
   }
 
   .wrapper {
@@ -55,6 +61,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
-    padding: min(20vh, 30rem) 1rem;
+    padding: 3rem;
   }
 </style>

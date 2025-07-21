@@ -2,66 +2,84 @@
   let { heading, title, picture, headline, subtitle } = $props();
 </script>
 
-<div class="heading">
+<div class="newspaper-container">
   <p>{heading}</p>
   <h1>{title}</h1>
-</div>
+  <hr class="divider" />
 
-<img src={picture} alt="headline" width="700" height="250" />
-<div>
-  <h2>{headline}</h2>
-  <h3>{subtitle}</h3>
+  <div class="headline-image">
+    <img src= {picture} alt="Bronx Innovation Feature">
+  </div>
+
+  <div>
+    <h2>{headline}</h2>
+    <h3>{subtitle}</h3>
+  </div>
 </div>
 
 <style>
-  .heading {
-    padding: 2px;
-    position: relative;
-    top: -150px;
-    align-items: center;
-    text-align: center;
-  }
-
-  /*.title-card {
-    height: 100vh;
-    display: flex;
+  
+  .headline-image {
+    width: 100%;
+    max-height: 400px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    border: 1px solid #ccc;
     justify-content: center;
     align-items: center;
-    text-align: center;
   }
 
-  .content {
-    max-width: 700px;
-    background-color: #ebebeb;
-    padding: 2rem;
-    border: 6px solid #2e2e2e;
-    border-radius: 2rem;
-    box-shadow: 16px 16px #808583;
-  } not being used for now*/
+  .headline-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+
+  .divider {
+    border: none;
+    height: 2px;
+    background-color: #ddd;
+    margin: 1rem auto 2rem auto;
+    width: 90%;
+  }
+
+  .newspaper-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
 
   h1 {
     font-family: "Playfair Display";
     font-size: 56pt;
     margin: 0;
     color: #40382d;
+    font-weight: 700;
+    margin: 0;
   }
 
   h2 {
     font-family: "Playfair Display";
     font-size: 32pt;
+    font-weight: 700;
     color: Black;
+    margin: 0.5rem 0;
   }
 
   h3 {
     font-family: "EB Garamond";
     font-size: 24pt;
     color: #737373;
+    margin-top: 0.25rem;
   }
 
   p {
     font-family: "EB Garamond";
     font-size: 14pt;
     color: #737373;
+    margin-bottom: 0.5rem;
   }
 
   @media (max-width: 600px) {

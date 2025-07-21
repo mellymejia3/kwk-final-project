@@ -1,16 +1,19 @@
 <script>
   import TitleSection from "./sections/TitleSection.svelte";
   import Introduction from "./sections/Introduction.svelte";
-  import GraphOne from "./sections/PovertyRatePage.svelte";
-  import GraphTwo from "./sections/UndergradEnrollmentPage.svelte";
-  import GraphThree from "./sections/BachelorsDegreePage.svelte";
-
+  import Undergrad from "./sections/UndergradEnrollmentPage.svelte";
+  import GraphTwo from "./sections/BachelorsDegreePage.svelte";
+  import MeetKayla from "./sections/MeetKayla.svelte";
+  import NextSteps from "./sections/NextSteps.svelte";
+  import PieChart from "./sections/PieChart.svelte";
 </script>
 
 <main>
   <TitleSection />
   <Introduction />
-  <GraphOne />
+  <MeetKayla />
+  <PieChart />
+  <Undergrad />
   <GraphTwo />
-  <GraphThree />
+  <NextSteps />
 </main>
